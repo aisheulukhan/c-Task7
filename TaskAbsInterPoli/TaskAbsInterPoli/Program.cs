@@ -6,35 +6,14 @@ namespace TaskAbsInterPoli
     {
         static void Main(string[] args)
         {
-
-            //int side = Convert.ToInt32(Console.ReadLine());
-            //Square s = new Square(side);
-
-            //if (side>0)
-            //{
-            //    Console.WriteLine(s.CalcArea());
-
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Yanlis melumat");
-            //}
-
-            //int Width = Convert.ToInt32(Console.ReadLine());
-            //int Lenght = Convert.ToInt32(Console.ReadLine());
-            //Rectangular r = new Rectangular(Width, Lenght);
-
-            //if (Width > 0 && Lenght > 0)
-            //{
-            //    Console.WriteLine(r.CalcArea());
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Yanlis melumat");
-            //}
-            //int side = 4;
-            //int Width = 6;
-            //int Lenght = 10;
+            Console.WriteLine("-------Menu-------");
+            Console.WriteLine("1. Square");
+            Console.WriteLine("2. Rectangular");
+            Console.WriteLine("0. Quit");
+            Console.WriteLine("-------------------------");
+            int side = 4;
+            int Width = -6;
+            int Lenght = 10;
 
 
             int key = 0;
@@ -48,8 +27,7 @@ namespace TaskAbsInterPoli
                         Console.WriteLine("End");
                         break;
                     case 1:
-                        Console.WriteLine("Kvadratin kenarini daxil edin");
-                        int side = Convert.ToInt32(Console.ReadLine());
+                        
                         Square s = new Square(side);
                         if (side > 0)
                         {
@@ -62,15 +40,14 @@ namespace TaskAbsInterPoli
                         }
                         break;
                     case 2:
-                        Console.WriteLine("Duzbucaqlinin enini daxil edin");
-                        int Width = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Duzbucaqlinin uzunlugunu daxil edin");
-                        int Lenght = Convert.ToInt32(Console.ReadLine());
+                       
                         Rectangular r = new Rectangular(Width, Lenght);
+
                         if (Width > 0 && Lenght > 0)
                         {
                             Console.WriteLine($"Duzbucaqlinin sahesi: {r.CalcArea()}");
                         }
+
                         else
                         {
                             Console.WriteLine("Yanlis melumat");
@@ -116,5 +93,6 @@ namespace TaskAbsInterPoli
         {
             return Width * Lenght;
         }
+      
     }
 }

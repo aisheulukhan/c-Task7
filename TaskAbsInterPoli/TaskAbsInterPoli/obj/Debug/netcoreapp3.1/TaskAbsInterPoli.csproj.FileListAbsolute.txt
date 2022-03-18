@@ -12,3 +12,17 @@ C:\Users\HP\Desktop\Tasks\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp
 C:\Users\HP\Desktop\Tasks\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.dll
 C:\Users\HP\Desktop\Tasks\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.pdb
 C:\Users\HP\Desktop\Tasks\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.genruntimeconfig.cache
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\bin\Debug\netcoreapp3.1\TaskAbsInterPoli.exe
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\bin\Debug\netcoreapp3.1\TaskAbsInterPoli.deps.json
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\bin\Debug\netcoreapp3.1\TaskAbsInterPoli.runtimeconfig.json
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\bin\Debug\netcoreapp3.1\TaskAbsInterPoli.runtimeconfig.dev.json
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\bin\Debug\netcoreapp3.1\TaskAbsInterPoli.dll
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\bin\Debug\netcoreapp3.1\TaskAbsInterPoli.pdb
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.csproj.AssemblyReference.cache
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.AssemblyInfoInputs.cache
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.AssemblyInfo.cs
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.csproj.CoreCompileInputs.cache
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.dll
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.pdb
+C:\Users\tu7hnsxs1\Desktop\c-Task7\TaskAbsInterPoli\TaskAbsInterPoli\obj\Debug\netcoreapp3.1\TaskAbsInterPoli.genruntimeconfig.cache
