@@ -10,10 +10,8 @@ namespace TaskAbsInterPoli
             Console.WriteLine("1. Square");
             Console.WriteLine("2. Rectangular");
             Console.WriteLine("0. Quit");
-            Console.WriteLine("-------------------------");
-            int side = 4;
-            int Width = -6;
-            int Lenght = 10;
+            Console.WriteLine("--------------");
+            
 
 
             int key = 0;
@@ -27,31 +25,49 @@ namespace TaskAbsInterPoli
                         Console.WriteLine("End");
                         break;
                     case 1:
+                        double side = 0;
                         
-                        Square s = new Square(side);
-                        if (side > 0)
+                        
+                        while (side <= 0)
                         {
-                            Console.WriteLine($"Kvadratin sahesi: {s.CalcArea()}");
+                            Console.WriteLine("Kvadratin kenarini daxil edin");
+                            side = Convert.ToDouble(Console.ReadLine());
+                            if (side <= 0)
+                            {
+                                Console.WriteLine("Yanlis melumatdir");
+                            }
 
                         }
-                        else
-                        {
-                            Console.WriteLine("Yanlis melumat");
-                        }
+                        Square s = new Square(side);
+                        Console.WriteLine($"Kvadratin sahesi: {s.CalcArea()}");
                         break;
                     case 2:
-                       
-                        Rectangular r = new Rectangular(Width, Lenght);
-
-                        if (Width > 0 && Lenght > 0)
+                        double width = 0;
+                        double lenght = 0;
+                        
+                        while (width <= 0)
                         {
-                            Console.WriteLine($"Duzbucaqlinin sahesi: {r.CalcArea()}");
+                            Console.WriteLine("Duzbucaqlinin enini daxil edin");
+                            width = Convert.ToDouble(Console.ReadLine());
+                            if (width <= 0)
+                            {
+                                Console.WriteLine("Yanlis melumatdir");
+                            }
                         }
-
-                        else
+                        while (lenght <=0)
                         {
-                            Console.WriteLine("Yanlis melumat");
+                            Console.WriteLine("Duzbucaqlinin uzunlugunu daxil edin");
+                            lenght = Convert.ToDouble(Console.ReadLine());
+                            if (lenght<=0)
+                            {
+                                Console.WriteLine("Yanlis melumatdir");
+                            }
+
+
                         }
+                        Rectangular r = new Rectangular(width, lenght);
+                        Console.WriteLine($"Duzbucaqlinin sahesi: {r.CalcArea()}");
+
                         break;
                     default:
                         Console.WriteLine("Yalnis daxil etdiniz");
@@ -63,18 +79,18 @@ namespace TaskAbsInterPoli
     }
     abstract class Figure
     {
-        public abstract int CalcArea();
+        public abstract double CalcArea();
         
     }
     class Square : Figure
     {
-        public int Side { get; set; }
-        public Square(int side)
+        public double Side { get; set; }
+        public Square(double side)
         {
             Side = side;
         }
 
-        public override int CalcArea()
+        public override double CalcArea()
         {
             return Side * Side;
         }
@@ -82,14 +98,14 @@ namespace TaskAbsInterPoli
     }
     class Rectangular : Figure
     {
-        public int Width { get; set; }
-        public int Lenght { get; set; }
-        public Rectangular(int width, int lenght)
+        public double Width { get; set; }
+        public double Lenght { get; set; }
+        public Rectangular(double width, double lenght)
         {
             Width = width;
             Lenght = lenght;
         }
-        public override int CalcArea()
+        public override double CalcArea()
         {
             return Width * Lenght;
         }
